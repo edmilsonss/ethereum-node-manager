@@ -23,6 +23,11 @@ export default new Router({
       path: '/contract-info',
       name: 'contract-info',
       component: () => import('./views/ContractInfo.vue')
+    },
+    {
+      path: '/node-info',
+      name: 'node-info',
+      component: () => import('./views/NodeInfo.vue')
     }
   ]
 })

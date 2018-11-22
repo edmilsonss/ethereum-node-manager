@@ -57,7 +57,7 @@ export default ({
   },
   mounted () {
     axios
-      .get('http://localhost:8080/basic-info')
+      .get('http://localhost/basic-info')
       .then(response => (this.contract = response))
   }
 })

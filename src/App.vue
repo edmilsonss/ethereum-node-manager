@@ -11,6 +11,7 @@
             </a>
             <ul class="navbar-nav mx-auto">
               <li class="nav-item"> <router-link to="/contract-info" class="nav-link" >Contract Info</router-link> </li>
+              <li class="nav-item"> <router-link to="/node-info" class="nav-link" >Node Info</router-link> </li>
               <li class="nav-item"> <router-link to="/transact" class="nav-link" >Transact</router-link> </li>
               <li class="nav-item"> <router-link to="/balances" class="nav-link" >Balances</router-link> </li>
             </ul>
